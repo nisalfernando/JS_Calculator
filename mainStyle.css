@@ -16,3 +16,7 @@ body {
   font-size: 16px;
   font-weight: bold;
 }
+
+.calc-container {
+  width: 300px;
+}
