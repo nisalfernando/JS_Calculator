@@ -19,4 +19,6 @@ body {
 
 .calc-container {
   width: 300px;
+  background-color: rgb(9, 114, 139);
+  border-radius: 20px;
 }
