@@ -1,0 +1,2 @@
+let prevVal = "";
+let newVal = "";
