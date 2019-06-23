@@ -44,4 +44,5 @@ body {
     height: 59px;
     width: 126px;
     margin: 10px 4px;
+    border: none !important;
 }
