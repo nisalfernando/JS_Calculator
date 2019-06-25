@@ -5,4 +5,9 @@ let mathOperator = "";
 let decimalClicked = false;
 let valMemStored = "";
 
-function numButPress(num) {}
+function numButPress(num) {
+    if (resultVal) {
+        newVal = num;
+        resultVal = "";
+    }
+}
