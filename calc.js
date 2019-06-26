@@ -19,4 +19,5 @@ function numButPress(num) {
             newVal += num;
         }
     }
+    document.querySelector("#entry").value = newVal;
 }
