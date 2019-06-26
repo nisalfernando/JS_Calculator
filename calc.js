@@ -15,6 +15,8 @@ function numButPress(num) {
                 newVal += num;
                 decimalClicked = true;
             }
+        } else {
+            newVal += num;
         }
     }
 }
