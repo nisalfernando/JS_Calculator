@@ -21,3 +21,5 @@ function numButPress(num) {
     }
     document.querySelector("#entry").value = newVal;
 }
+
+function mathButPress(operator) {}
