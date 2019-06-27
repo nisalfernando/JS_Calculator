@@ -22,4 +22,8 @@ function numButPress(num) {
     document.querySelector("#entry").value = newVal;
 }
 
-function mathButPress(operator) {}
+function mathButPress(operator) {
+    if (!resultVal) {
+        prevVal = newVal;
+    }
+}
