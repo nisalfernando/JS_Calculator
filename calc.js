@@ -25,5 +25,7 @@ function numButPress(num) {
 function mathButPress(operator) {
     if (!resultVal) {
         prevVal = newVal;
+    } else {
+        prevVal = resultVal;
     }
 }
