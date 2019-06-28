@@ -29,4 +29,5 @@ function mathButPress(operator) {
         prevVal = resultVal;
     }
     newVal = "";
+    decimalClicked = false;
 }
