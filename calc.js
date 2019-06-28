@@ -30,4 +30,6 @@ function mathButPress(operator) {
     }
     newVal = "";
     decimalClicked = false;
+    mathOperator = operator;
+    resultVal = "";
 }
