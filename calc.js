@@ -28,4 +28,5 @@ function mathButPress(operator) {
     } else {
         prevVal = resultVal;
     }
+    newVal = "";
 }
