@@ -32,4 +32,5 @@ function mathButPress(operator) {
     decimalClicked = false;
     mathOperator = operator;
     resultVal = "";
+    document.querySelector("#entry").value = "";
 }
