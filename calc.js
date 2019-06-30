@@ -38,4 +38,5 @@ function mathButPress(operator) {
 function equalButPress(num) {
     decimalClicked = false;
     prevVal = parseFloat(prevVal);
+    newVal = parseFloat(newVal);
 }
