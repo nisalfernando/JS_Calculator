@@ -39,4 +39,10 @@ function equalButPress(num) {
     decimalClicked = false;
     prevVal = parseFloat(prevVal);
     newVal = parseFloat(newVal);
+
+    switch (mathOperator) {
+        case "+":
+            resultVal = prevVal + newVal;
+            break;
+    }
 }
