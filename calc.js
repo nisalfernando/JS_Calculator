@@ -1,3 +1,4 @@
+// Declaring the variables
 let prevVal = "";
 let newVal = "";
 let resultVal = "";
