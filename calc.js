@@ -49,5 +49,9 @@ function equalButPress(num) {
         case "-":
             resultVal = prevVal - newVal;
             break;
+
+        case "*":
+            resultVal = prevVal * newVal;
+            break;
     }
 }
