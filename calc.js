@@ -61,4 +61,6 @@ function equalButPress(num) {
         default:
             resultVal = newVal;
     }
+
+    prevVal = resultVal;
 }
