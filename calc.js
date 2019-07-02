@@ -57,5 +57,8 @@ function equalButPress(num) {
         case "/":
             resultVal = prevVal / newVal;
             break;
+
+        default:
+            resultVal = newVal;
     }
 }
