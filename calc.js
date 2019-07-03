@@ -65,3 +65,5 @@ function equalButPress(num) {
     prevVal = resultVal;
     document.querySelector("#entry").value = resultVal;
 }
+
+function clearButPress() {}
