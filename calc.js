@@ -69,4 +69,5 @@ function equalButPress(num) {
 function clearButPress() {
     prevVal = "";
     newVal = "";
+    resultVal = "";
 }
