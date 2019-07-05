@@ -71,4 +71,5 @@ function clearButPress() {
     prevVal = "";
     newVal = "";
     resultVal = "";
+    mathOperator = "";
 }
