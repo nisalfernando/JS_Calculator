@@ -36,6 +36,7 @@ function mathButPress(operator) {
     document.querySelector("#entry").value = "";
 }
 
+// Equal button function
 function equalButPress(num) {
     decimalClicked = false;
     prevVal = parseFloat(prevVal);
