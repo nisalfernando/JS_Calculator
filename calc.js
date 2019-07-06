@@ -73,4 +73,5 @@ function clearButPress() {
     resultVal = "";
     mathOperator = "";
     decimalClicked = false;
+    document.querySelector("#entry").value = "0";
 }
