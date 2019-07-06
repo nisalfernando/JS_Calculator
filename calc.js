@@ -6,6 +6,7 @@ let mathOperator = "";
 let decimalClicked = false;
 let valMemStored = "";
 
+// Numbers function
 function numButPress(num) {
     if (resultVal) {
         newVal = num;
@@ -23,7 +24,7 @@ function numButPress(num) {
     document.querySelector("#entry").value = newVal;
 }
 
-// Mathematical operator's function
+// Mathematical operators's function
 function mathButPress(operator) {
     if (!resultVal) {
         prevVal = newVal;
