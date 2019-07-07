@@ -78,3 +78,7 @@ function clearButPress() {
     decimalClicked = false;
     document.querySelector("#entry").value = "0";
 }
+
+function copyButPress(num) {
+    valMemStored = document.querySelector("#entry").value;
+}
