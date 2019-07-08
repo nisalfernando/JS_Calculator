@@ -82,3 +82,5 @@ function clearButPress() {
 function copyButPress(num) {
     valMemStored = document.querySelector("#entry").value;
 }
+
+function pasteButPress() {}
