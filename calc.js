@@ -86,5 +86,6 @@ function copyButPress(num) {
 function pasteButPress(num) {
     if (valMemStored) {
         document.querySelector("#entry").value = valMemStored;
+        newVal = valMemStored;
     }
 }
