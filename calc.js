@@ -79,10 +79,12 @@ function clearButPress() {
     document.querySelector("#entry").value = "0";
 }
 
+// MC button function
 function copyButPress(num) {
     valMemStored = document.querySelector("#entry").value;
 }
 
+// MP button function
 function pasteButPress(num) {
     if (valMemStored) {
         document.querySelector("#entry").value = valMemStored;
